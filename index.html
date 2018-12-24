@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Principles of Economics, by Carl Menger | HTML version</title>
+
+<script language="javascript">
+var fname="content";     //MAIN CONTENT AREA FRAME **NAME**
+
+window.onload=function(){
+var d=document.location.search;
+if(d!='')top.frames[fname].document.location.href=d.substring(d.lastIndexOf('?')+1,d.length);
+}
+</script>
+
+</head>
+
+<frameset cols="25%,75%">
+   <frame src="toc.html" name="nav" frameborder="0" />
+   <frame src="title.html" name="content" frameborder="0" />
+</frameset>
+
+</html>

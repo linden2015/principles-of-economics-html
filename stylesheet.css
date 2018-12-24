@@ -1,0 +1,773 @@
+/*@font-face {
+	font-family: "Times New Roman";
+	src: url(fonts/times.ttf);
+	font-style: normal;
+	font-weight: normal;
+}*/
+/*@font-face {
+	font-family: "Times New Roman";
+	src: url(fonts/timesbd.ttf);
+	font-style: bold;
+	font-weight: bold;
+}*/
+/*@font-face {
+	font-family: "Times New Roman";
+	src: url(fonts/timesi.ttf);
+	font-style: italic;
+	font-weight: italic;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+a:visited {color: blue;}
+
+body {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+table {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  border-collapse: collapse;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+}
+
+/*Front Matters*/
+/* For Chapter Number*/
+
+.bkt{
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  font-size: xx-large;
+  font-weight: normal;
+}
+
+.bkt1{
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  font-size: small;
+  font-weight: normal;
+}
+/*Drop Caps Letters*/
+
+.bt{
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top: 0em;
+  font-size: large;
+  font-weight: normal;
+}
+
+.bt1{
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 0em;
+  font-size: medium;
+}
+
+.bt2{
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 7em;
+  font-size: small;
+}
+
+.cen {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom:0em;
+  text-align: center;
+}
+ .center {
+  font-family: "Times New Roman", serif;
+  font-size:x-small;
+  margin-top:0em;
+  margin-bottom:0em;
+  text-align: center;
+}
+
+.cen2
+ {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+/*  margin-top: 5em; */
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.chn {
+  font-family: "Times New Roman", serif;
+  text-align: left;
+  margin-bottom:2em;
+  margin-top: 3em;
+  font-size: larger;
+  font-weight: bold;
+}
+/* For Chapter Titles*/
+
+.cht {
+  font-family: "Times New Roman", serif;
+  text-align: right;
+  margin-bottom:0em;
+  margin-top: 0em;
+  font-size:xx-large;
+  font-weight: bold;
+}
+.cht-a {
+  font-family: "Times New Roman", serif;
+  text-align: right;
+  margin-bottom:0em;
+  margin-top: 2em;
+  font-size:xx-large;
+  font-weight: bold;
+}
+.ch {
+  font-family: "Times New Roman", serif;
+  text-align: right;
+  margin-bottom:5em;
+  margin-top: 0em;
+  font-size:xx-large;
+  font-weight: bold;
+}
+.sub {
+  font-family: "Times New Roman", serif;
+  text-align: right;
+  margin-bottom:5em;
+  margin-top: 0em;
+  font-size:larger;
+  font-weight: bold;
+}
+.copy {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 5em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.copy-cen {
+  font-family: "Times New Roman", serif;
+  font-size: x-small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.copys {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.copyss {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.dp-para {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: 0em;
+  margin-top:2em;
+}
+/*First line indented Paragraphs*/
+
+.fmt {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom:2.5em;
+  text-indent: 0em;
+  text-align: center;
+}
+.fmt1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom:2.5em;
+  text-indent: 0em;
+  text-align: left;
+}
+.bmt {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom:2.5em;
+  text-indent: 0em;
+  text-align:left;
+}
+.fn-para {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: justify;
+  text-indent:1.5em;
+}
+
+span.line
+{
+border-bottom:4px solid #000000;
+}
+
+
+.fn-para1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: justify;
+  text-indent:-1em;
+}
+
+.hlf {
+  font-family: "Times New Roman", serif;
+  font-size: x-large;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.hlf1 {
+  font-family: "Times New Roman", serif;
+  font-size: large;
+  margin-top: 0.3em;
+  margin-bottom: 8em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.hlf2 {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.img {
+  margin-top:1em;
+  margin-bottom:1em;
+  text-align: center;
+}
+
+.img-cap {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.indent{
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-indent: 1.3em;
+  text-align: justify;
+}
+/*First line indented Paragraphs with space before*/
+
+.indents {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-indent: 1.3em;
+  text-align: justify;
+}
+/*Without first line indent paragraphs*/
+
+.li {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  padding-right: 1em;
+  margin-left: 0.8em;
+  text-indent: -0.8em;
+}
+
+.lt
+ {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 2em;
+  margin-left: 1.3em;
+  margin-bottom: 1em;
+  text-align: left;
+  text-indent:-1.3em;
+}
+.ct {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top:1em;
+  margin-bottom:0em;
+  text-align: center;
+  font-weight:bold;
+}
+.lt1 {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-align: left;
+  margin-left:1.3em;
+  text-indent:-1.3em;
+}
+
+.lt2 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+/*center aligned Title*/
+
+.noindent {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: justify;
+}
+
+.noindent1 {
+  font-family: "Times New Roman", serif;
+  font-size: x-small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: justify;
+}
+
+.noindent1s {
+  font-family: "Times New Roman", serif;
+  font-size: x-small;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-align: justify;
+}
+
+.noindents {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-align: justify;
+}
+/*Left aligned Title*/
+
+.ol {
+  margin-left:2.5em;
+  text-indent: -1.3em;
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+}
+.ol2 {
+  margin-left:3.5em;
+  text-indent: -2.3em;
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  text-align: justify;
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+}
+.ol1 {
+  margin-left: 1.8em;
+  text-indent: -1.3em;
+  font-family: "Times New Roman", serif;
+  font-size: x-small;
+  text-align: justify;
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+}
+
+/*Without first line indent paragraphs with space before*/
+
+.ols {
+  margin-left:2.5em;
+  text-indent: -1.3em;
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 0.1em;
+}
+
+.part {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.pub {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 4em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.qt {
+  font-family: "Times New Roman", serif;
+  font-size:medium;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  margin-left:2.5em;
+  margin-right:2.5em;
+}
+
+.qt1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  margin-left: 1.5em;
+
+}
+
+.rt {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top:0em;
+  margin-bottom:0em;
+  text-align: right;
+}
+
+.rt1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: right;
+}
+
+.tab-cap {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.tab-img {
+  font-family: "Times New Roman", serif;
+  font-size: x-small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: justify;
+}
+
+.td-1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: solid black 1px;
+}
+
+.td-cen {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+  padding-right: 0em;
+}
+
+.tdg {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  margin-left: 0em;
+  background-color: #9C9FA1;
+  border: solid #9C9FA1 1px;
+  color: #FFFFFF;
+}
+
+.tdg-1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+  margin-left: 0em;
+  background-color: #939498;
+  border: solid black 1px;
+  color: #FFFFFF;
+}
+
+.tdr {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.tdr-1 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: right;
+  padding-right: 0em;
+  border-bottom: solid black 1px;
+}
+
+.tit {
+  font-family: "Times New Roman", serif;
+  font-size: large;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.tit1 {
+  font-family: "Times New Roman", serif;
+  font-size: xx-large;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.tit2 {
+  font-family: "Times New Roman", serif;
+  font-size: large;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  text-indent: 0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.toc {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 1em;
+  margin-bottom:0.2em;
+  text-align: left;
+}
+
+.toc-cen {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 2em;
+  margin-bottom: 0em;
+  text-align: center;
+  margin-left: 0em;
+}
+
+.toc-cen1 {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  text-align: center;
+  margin-left: 0em;
+}
+
+.toc1 {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 2.9em;
+  text-align: left;
+  text-indent:-1.4em;
+}
+
+.toc1-a {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left:2.5em;
+  text-align: left;
+  text-indent:-1.4em;
+}
+
+.toc1-b {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 3em;
+  text-align: left;
+  text-indent:-1.4em;
+}
+.toc1-c {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 3.3em;
+  text-align: left;
+  text-indent:-1.4em;
+}
+.toc1-d {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 3.6em;
+  text-align: left;
+  text-indent:-1.4em;
+}
+
+.toc2 {
+ font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+  margin-left: 4.4em;
+  text-align: left;
+  text-indent:-1.5em;
+}
+.toc2-a {
+ font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+  margin-left: 4.1em;
+  text-align: left;
+  text-indent:-1.5em;
+}
+
+.toc2-c {
+ font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+  margin-left: 4.7em;
+  text-align: left;
+  text-indent:-1.5em;
+}
+
+.toc3 {
+   font-family: "Times New Roman", serif;
+  font-size: medium;
+  margin-top:0em;
+  margin-bottom:0em;
+  text-align: left;
+}
+
+.toc4 {
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: left;
+  text-indent: 0.5em;
+}
+
+.ul/*bullet list left noindent rightmargin "0"*/ {
+  margin-left: 2em;
+  text-indent: -1em;
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  text-align: justify;
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+}
+
+.uls {
+  margin-left: 2em;
+  text-indent: -1em;
+  font-family: "Times New Roman", serif;
+  font-size: small;
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+span.dp
+ {
+
+  font-family: "Times New Roman", serif;
+ font-weight:bold;
+        font-size: 300%;
+        float: left;
+        line-height:0.8em;
+         margin-top:0em;
+        margin-bottom:-0.3em;
+        margin-right: 0.10em;
+
+}
+.ind{
+font-family: "Times New Roman", serif;
+  font-size:small;
+  font-weight: normal;
+  margin-top:0em;
+  margin-bottom:0em;
+  margin-left:1em;
+  text-indent:-1em;
+
+}
+.inds{
+font-family: "Times New Roman", serif;
+  font-size:small;
+  font-weight: normal;
+  margin-top:1.0em;
+  margin-bottom:0em;
+  margin-left:1em;
+  text-indent:-1em;
+ }
+.ind1{
+font-family: "Times New Roman", serif;
+  font-size:small;
+  font-weight: normal;
+  margin-top:0em;
+  margin-bottom:0em;
+  margin-left:1.8em;
+  text-indent:-1em;
+ }
